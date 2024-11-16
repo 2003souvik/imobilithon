@@ -1,0 +1,161 @@
+Initializing Perception System...
+Initializing Path Planning System...
+Initializing Control System...
+Initializing Decision-Making System...
+Loading AI decision-making model...
+Initializing DSRC Communication Module...
+
+AutoCar Advanced starting journey...
+
+[Path Planning]
+Planning path using A* algorithm...
+Start: 0, Goal: 10
+Path planned: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+[Driving Simulation]
+---------------------------------
+Step 0:
+Processing camera feed...
+    Detected objects: ['car', 'pedestrian', 'traffic light']
+Processing LIDAR data...
+    LIDAR scan: [15, 20, 18, 12, 10, 25, 30, 17, 9, 22, 13, 18, 16, 21, 19, 14]
+Processing Radar data...
+    Nearest obstacle distance: 8 units
+Deciding action based on detected objects: ['car', 'pedestrian', 'traffic light']
+    Action: STOP
+Control System - Speed: 0, Steering: 0
+Emergency Stop Activated!
+Sending traffic update: Car at position 0
+
+---------------------------------
+Step 1:
+Processing camera feed...
+    Detected objects: ['car', 'traffic light']
+Processing LIDAR data...
+    LIDAR scan: [22, 28, 18, 25, 20, 15, 30, 27, 12, 22, 13, 19, 16, 20, 25, 18]
+Processing Radar data...
+    Nearest obstacle distance: 15 units
+Deciding action based on detected objects: ['car', 'traffic light']
+    Action: DRIVE_NORMAL
+Control System - Speed: 5, Steering: 0
+Sending traffic update: Car at position 1
+
+---------------------------------
+Step 2:
+Processing camera feed...
+    Detected objects: ['car']
+Processing LIDAR data...
+    LIDAR scan: [19, 24, 21, 22, 25, 18, 14, 22, 20, 25, 12, 15, 18, 19, 24, 22]
+Processing Radar data...
+    Nearest obstacle distance: 20 units
+Deciding action based on detected objects: ['car']
+    Action: DRIVE_NORMAL
+Control System - Speed: 5, Steering: 0
+Sending traffic update: Car at position 2
+
+---------------------------------
+Step 3:
+Processing camera feed...
+    Detected objects: []
+Processing LIDAR data...
+    LIDAR scan: [25, 28, 22, 19, 16, 23, 21, 20, 18, 22, 15, 14, 13, 18, 17, 20]
+Processing Radar data...
+    Nearest obstacle distance: 30 units
+Deciding action based on detected objects: []
+    Action: DRIVE_NORMAL
+Control System - Speed: 5, Steering: 0
+Sending traffic update: Car at position 3
+
+---------------------------------
+Step 4:
+Processing camera feed...
+    Detected objects: ['bicycle']
+Processing LIDAR data...
+    LIDAR scan: [20, 23, 21, 25, 18, 19, 16, 20, 15, 22, 12, 18, 17, 20, 19, 24]
+Processing Radar data...
+    Nearest obstacle distance: 25 units
+Deciding action based on detected objects: ['bicycle']
+    Action: SLOW_DOWN
+Control System - Speed: 2, Steering: 0
+Sending traffic update: Car at position 4
+
+---------------------------------
+Step 5:
+Processing camera feed...
+    Detected objects: []
+Processing LIDAR data...
+    LIDAR scan: [22, 24, 20, 23, 21, 22, 24, 23, 19, 21, 18, 20, 16, 17, 19, 21]
+Processing Radar data...
+    Nearest obstacle distance: 35 units
+Deciding action based on detected objects: []
+    Action: DRIVE_NORMAL
+Control System - Speed: 5, Steering: 0
+Sending traffic update: Car at position 5
+
+---------------------------------
+Step 6:
+Processing camera feed...
+    Detected objects: ['stop sign']
+Processing LIDAR data...
+    LIDAR scan: [15, 20, 18, 22, 25, 18, 17, 19, 20, 22, 13, 16, 18, 19, 23, 21]
+Processing Radar data...
+    Nearest obstacle distance: 10 units
+Deciding action based on detected objects: ['stop sign']
+    Action: STOP
+Control System - Speed: 0, Steering: 0
+Sending traffic update: Car at position 6
+
+---------------------------------
+Step 7:
+Processing camera feed...
+    Detected objects: []
+Processing LIDAR data...
+    LIDAR scan: [24, 22, 19, 21, 20, 23, 19, 24, 25, 22, 14, 15, 17, 20, 18, 21]
+Processing Radar data...
+    Nearest obstacle distance: 40 units
+Deciding action based on detected objects: []
+    Action: DRIVE_NORMAL
+Control System - Speed: 5, Steering: 0
+Sending traffic update: Car at position 7
+
+---------------------------------
+Step 8:
+Processing camera feed...
+    Detected objects: ['traffic light - red']
+Processing LIDAR data...
+    LIDAR scan: [18, 22, 24, 20, 25, 19, 23, 22, 15, 20, 19, 18, 16, 17, 21, 20]
+Processing Radar data...
+    Nearest obstacle distance: 12 units
+Deciding action based on detected objects: ['traffic light - red']
+    Action: STOP
+Control System - Speed: 0, Steering: 0
+Sending traffic update: Car at position 8
+
+---------------------------------
+Step 9:
+Processing camera feed...
+    Detected objects: []
+Processing LIDAR data...
+    LIDAR scan: [21, 24, 19, 20, 22, 23, 20, 19, 18, 17, 16, 19, 18, 20, 22, 21]
+Processing Radar data...
+    Nearest obstacle distance: 50 units
+Deciding action based on detected objects: []
+    Action: DRIVE_NORMAL
+Control System - Speed: 5, Steering: 0
+Sending traffic update: Car at position 9
+
+---------------------------------
+Step 10:
+Processing camera feed...
+    Detected objects: []
+Processing LIDAR data...
+    LIDAR scan: [18, 19, 20, 22, 23, 20, 21, 25, 26, 24, 22, 20, 19, 18, 16, 15]
+Processing Radar data...
+    Nearest obstacle distance: 55 units
+Deciding action based on detected objects: []
+    Action: DRIVE_NORMAL
+Control System - Speed: 5, Steering: 0
+Sending traffic update: Car at position 10
+
+---------------------------------
+AutoCar Advanced reached its destination.
